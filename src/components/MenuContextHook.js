@@ -3,7 +3,7 @@ import useContextMenu from "../hooks/useContextMenu";
 import { ContextMenu } from "../styles/styles";
 import Menu from "./Menu";
 
-const MenuContainerContext = ({ data }) => {
+const MenuContextHook = ({ data }) => {
   const { clicked, setClicked, points, setPoints } = useContextMenu();
 
   return (
@@ -37,4 +37,4 @@ const MenuContainerContext = ({ data }) => {
   );
 };
 
-export default MenuContainerContext;
+export default MenuContextHook;
