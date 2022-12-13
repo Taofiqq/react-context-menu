@@ -27,7 +27,6 @@ const MenuContext = ({ data }) => {
               x: e.pageX,
               y: e.pageY,
             });
-            console.log("Right Click", e.pageX, e.pageY);
           }}
         >
           <Menu id={item.id} title={item.title} />

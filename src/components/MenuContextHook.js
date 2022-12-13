@@ -17,7 +17,7 @@ const MenuContextHook = ({ data }) => {
               x: e.pageX,
               y: e.pageY,
             });
-            console.log("Right Click", e.pageX, e.pageY);
+          
           }}
         >
           <Menu key={item.id} title={item.title} />
